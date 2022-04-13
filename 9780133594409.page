@@ -1,0 +1,574 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>Pearson - Solutions Manual for Wireless Communication Networks and Systems - William Stallings</title><!--ls:begin[stylesheet]--><link href="/iwov-resources/fixed-layout/HIP_CA_SingleColumnLayout.css" type="text/css" rel="stylesheet" /><!--ls:end[stylesheet]--><!--ls:begin[meta-keywords]--><meta name="keywords" content="William Stallings,Solutions Manual for Wireless Communication Networks and Systems,0133594408,9780133594409,Pearson,Wireless Communications and Networking,Computer Science"> </meta><!--ls:end[meta-keywords]--><!--ls:begin[meta-description]--><meta name="description" content=""> </meta><!--ls:end[meta-description]--><!--ls:begin[stylesheet]--><link type="text/css" href="/hip/us/ng/assets/css/global.css" rel="stylesheet" /><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/hip/us/ng/assets/css/us-content-ie_new.css" rel="stylesheet" /><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/hip/us/ng/assets/css/rwp.css" rel="stylesheet" /><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/hip/us/ng/assets/css/jquery-ui-1.8.9.pearson.aqua.css" rel="stylesheet" /><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/hip/us/ng/assets/css/jquery-ui-1.8.9.pearson.fuschia.css" rel="stylesheet" /><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/hip/us/ng/assets/css/jquery-ui-1.8.9.pearson.navy.css" rel="stylesheet" /><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/hip/us/ng/assets/css/custom.css" rel="stylesheet" /><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/hip/us/ng/assets/prettyPhoto/css/prettyPhoto.css" rel="stylesheet" /><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/hip/us/ng/assets/css/jquery.validity.css" rel="stylesheet" /><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/hip/us/ng/assets/css/custom2.css" rel="stylesheet" /><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/hip/us/ng/assets/css/scrollable.css" rel="stylesheet" /><!--ls:end[stylesheet]--><!--ls:begin[stylesheet]--><link type="text/css" href="/hip/us/ng/assets/css/framework.css" rel="stylesheet" /><!--ls:end[stylesheet]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/jquery-1.7.min.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/jquery-ui-1.8.9.custom.min.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/superfish.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/widont.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/cycle.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/jquery.validity.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/prettyPhoto/js/jquery.prettyPhoto.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/rwp.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/forms.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/tabs.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/global.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/jquery.tools.min.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/modalLayer.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/webtrends.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/webtrendsHeatMap.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/tabcontent.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/onePearsonSurvey/js/onePearsonSurvey.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/hero-slideshow.js" ></script><!--ls:end[script]--><!--ls:begin[script]--><script type="text/javascript" src="/hip/us/ng/assets/js/check-on-submit.js" ></script><!--ls:end[script]--><!--ls:begin[head-injection]--><!--ls:end[head-injection]--><!--ls:begin[script]--><!--ls:end[script]--></head><body><!--ls:begin[body]--><div class="ls-canvas HIP_CA_SingleColumn_canvas" id="ng_us_wrapper"><div class="ls-row" id="ls-row-1"><div class="ls-fxr" id="ls-gen1-ls-fxr"><div class="ls-area" id="ls-row-1-area-1"><div class="ls-area-body" id="ls-gen2-ls-area-body"><div class="ls-cmp-wrap ls-1st" id="w1309255779701"><div class="iw_component my-component" id="1309255779701"><div id="ng_us_topStrap"><a href="/index.html" id="ng_us_pearsonLogo"><span class="ng_us_clearText">Pearson</span></a><div id="ng_us_siteLocation"><div id="ng_us_alwaysLearning"><span class="ng_us_clearText">Always Learning</span></div></div></div></div></div><div class="ls-cmp-wrap" id="w1276272571256"><div class="iw_component my-component" id="1276272571256"><iframe xmlns:pearsonUtil="http://www.oracle.com/XSL/Transform/java/com.pearson.livesite.hip.util.PearsonUtil" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" style="position:absolute; visibility:hidden; left:0; top:0" src="/educator/main_content/sso_Frame.page" id="ssoIframe"></iframe></div></div></div></div><div class="ls-row-clr" ></div></div></div><div class="ls-row" id="ls-row-2"><div class="ls-fxr" id="ls-gen3-ls-fxr"><div class="ls-area" id="ls-row-2-area-1"><div class="ls-area-body" id="ls-gen4-ls-area-body"><div class="ls-cmp-wrap ls-1st" id="w1309255779702"><div class="iw_component my-component" id="1309255779702"><link type="text/css" href="/hip/us/ng/assets/css/cookiemsg.css" rel="stylesheet"/><script type="text/javascript" src="/hip/us/ng/assets/js/cookiemsg.js"></script><div id="ng_us_mainNav"><ul class="nav global"><li class="higher"><a class="color-match font-smooth" href="/">Higher Education</a></li><li class="slash"> / </li><li class="channel"><a class="color-match-light font-smooth has-drop-menu" href="#channel">Educators</a><div id="channel" class="drop-menu has-pointer channel-educators"><ul><li><a href="/educator/index.page">Educators</a></li><li><a href="/leadership/index.page">Academic Executives</a></li><li><a href="/student/index.page">Students</a></li><li><a href="/information/index.page">Other Customers</a></li></ul></div></li><li class="canada"><a class="color-match" href="/information/international/">Canada (change)</a></li><li class="ca" style="float:right;"><a title="Opens in new tab/window | https://www.pearson.com/uk/contact-us.html" href="https://www.pearson.com/uk/contact-us.html" rel="ext">Contact Us  </a></li></ul><p id="ng_ca_region"></p></div></div></div></div></div><div class="ls-row-clr" ></div></div></div><div class="ls-row contentContainer" id="ls-row-3"><div class="ls-fxr" id="ls-gen5-ls-fxr"><div class="ls-area" id="ls-row-3-area-1"><div class="ls-area-body" id="ls-gen6-ls-area-body"><div class="ls-cmp-wrap ls-1st" id="w1303866326139"><div class="iw_component my-component" id="1303866326139"><script type="text/javascript">
+
+			function submitHIPGlobalSearchForm()
+            {
+				
+				var hipGlobalSearchForm = document.getElementById('hipGlobalSearchForm');
+				if(null !=hipGlobalSearchForm.ng_us_search_text && hipGlobalSearchForm.search_text.value == "Search by author, title, or ISBN"){
+						hipGlobalSearchForm.search_text.value = "";
+				}
+				if(null != hipGlobalSearchForm && null != hipGlobalSearchForm.iwPreActions){
+					hipGlobalSearchForm.iwPreActions.value = 'submitQuickFind';	
+					hipGlobalSearchForm.submit();
+				}
+			}
+			 //353746:Start
+			 function doClearSearchByText(obj)
+                {
+					obj.value = "";
+                }
+			function doClearSearchByTextAlt(obj)
+                {
+					if(obj.value == "Search by author, title, or ISBN")
+					{
+						obj.value = "";
+					}
+				}
+			//353746:End
+				function keyPressGlobalSearchForm(event){
+					if(event.keyCode == 13) {
+						submitHIPGlobalSearchForm();
+					}
+				}
+		</script><div id="ng_us_mainNavBtm"><div id="ng_us_helpBar"><a href="javascript:void(0);" onclick="browseByDiscipline(); return false;" class="ng_us_discipline ng_us_clearText" title="browse by discipline">Browse by discipline</a><div id="ng_us_searchBar"><form onsubmit="return false;" method="post" name="hipGlobalSearchForm" id="hipGlobalSearchForm" action="/pearsonhigheredca/educator/product/products_detail.page?submit=true&componentID=1303866326139"/><input name="iwPreActions" type="hidden"/><input name="sortField" type="hidden"/><input onkeyPress="keyPressGlobalSearchForm(event)" onfocus="doClearSearchByTextAlt(this);" value="Search by author, title, or ISBN" type="text" title="Search by author, title, or ISBN" class="search_by_text" name="search_text" id="ng_us_search_text"/><a href="javascript:submitHIPGlobalSearchForm();" id="ng_us_searchSubmit"></a><input id="ng_us_searchSubmitBtn" type="submit" class="ng_us_hidden"/></form></div></div><div><span style="float: right; font-weight: bold; font-size: 10px;"></span><br/><ul id="ng_us_loginCTA" class="ng_us_dropDownNav sf-js-enabled sf-shadow"><li><a href="/educator/catalog/index.page">Sign in or sign up</a>&nbsp;|&nbsp;</li><li><a href="/educator/replocator/">Find your rep</a>&nbsp;|&nbsp;</li><li><a href="/educator/exam_copy/bookBag.page">Exam copy bookbag</a></li></ul></div><script type="text/javascript">
+                function submitLogoutForm(actions,formName)
+                {
+                   // alert('in Submit form : ');
+                    var myForm = document.getElementById(formName);
+                    if (null != myForm)
+                    {   
+
+						//alert('Submit Form  : action : ' +actions );
+						
+						myForm.iwPreActions.value = actions;
+		     
+                        myForm.submit();      
+                    }
+                    return false;
+                }   
+            </script></div><div xmlns:pearsonUtil="com.pearson.livesite.util.PearsonUtil" class="ng_us_dialog" id="ng_us_disciplineitems"><div class="ng_us_triCol"><ul><li><a href="/educator/discipline/Allied-Health/91109641.page">Allied Health</a></li><li><a href="/educator/discipline/Anatomy-Physiology/91109650.page">Anatomy &amp; Physiology</a></li><li><a href="/educator/discipline/Anthropology/91109664.page">Anthropology</a></li><li><a href="/educator/discipline/Art/91109642.page">Art</a></li><li><a href="/educator/discipline/Biology-Microbiology/91109653.page">Biology &amp; Microbiology</a></li><li><a href="/educator/discipline/Business/91109676.page">Business</a></li><li><a href="/educator/discipline/Chemistry/91109672.page">Chemistry</a></li><li><a href="/educator/discipline/Communication/91109652.page">Communication</a></li><li><a href="/educator/discipline/Communication-Sciences-Disorders/91109678.page">Communication Sciences &amp; Disorders</a></li><li><a href="/educator/discipline/Computer-Science/91109658.page">Computer Science</a></li><li><a href="/educator/discipline/Counseling/91109661.page">Counseling</a></li><li><a href="/educator/discipline/Criminal-Justice/91109654.page">Criminal Justice</a></li><li><a href="/educator/discipline/Culinary-Hospitality-Travel-Tourism/91109673.page">Culinary, Hospitality, Travel &amp; Tourism</a></li><li><a href="/educator/discipline/Deaf-Studies-Deaf-Education/91109639.page">Deaf Studies &amp; Deaf Education</a></li></ul></div><div class="ng_us_triCol"><ul><li><a href="/educator/discipline/Economics/91109677.page">Economics</a></li><li><a href="/educator/discipline/Education/91109668.page">Education</a></li><li><a href="/educator/discipline/EMS-Fire-Science-Brady/91109671.page">EMS &amp; Fire Science (Brady)</a></li><li><a href="/educator/discipline/Engineering/91109665.page">Engineering</a></li><li><a href="/educator/discipline/English/91109651.page">English</a></li><li><a href="/educator/discipline/Environmental-Science/91109657.page">Environmental Science</a></li><li><a href="/educator/discipline/Fashion-Interior-Design/91109637.page">Fashion &amp; Interior Design</a></li><li><a href="/educator/discipline/Geography-Atmospheric-Sciences/91109670.page">Geography &amp; Atmospheric Sciences</a></li><li><a href="/educator/discipline/Geology-Oceanography/91109648.page">Geology &amp; Oceanography</a></li><li><a href="/educator/discipline/Health-Kinesiology/91109674.page">Health &amp; Kinesiology</a></li><li><a href="/educator/discipline/History/91109646.page">History</a></li><li><a href="/educator/discipline/Information-Technology/91109638.page">Information Technology</a></li><li><a href="/educator/discipline/Interdisciplinary-Studies/91109663.page">Interdisciplinary Studies</a></li><li><a href="/educator/discipline/Legal-Studies-Paralegal/91109675.page">Legal Studies &amp; Paralegal</a></li></ul></div><div class="ng_us_triCol"><ul><li><a href="/educator/discipline/Mathematics/91109656.page">Mathematics</a></li><li><a href="/educator/discipline/Music/91109660.page">Music</a></li><li><a href="/educator/discipline/Nursing/91109647.page">Nursing</a></li><li><a href="/educator/discipline/Nutrition/91109640.page">Nutrition</a></li><li><a href="/educator/discipline/Philosophy/91109649.page">Philosophy</a></li><li><a href="/educator/discipline/Physics-Astronomy/91109667.page">Physics &amp; Astronomy</a></li><li><a href="/educator/discipline/Political-Science/91109666.page">Political Science</a></li><li><a href="/educator/discipline/Psychology/91109679.page">Psychology</a></li><li><a href="/educator/discipline/Religion/91109655.page">Religion</a></li><li><a href="/educator/discipline/Social-Work-Family-Therapy-Human-Services/91109643.page">Social Work / Family Therapy / Human Services</a></li><li><a href="/educator/discipline/Sociology/91109645.page">Sociology</a></li><li><a href="/educator/discipline/Statistics/91109669.page">Statistics</a></li><li><a href="/educator/discipline/Student-Success-Career-Development/91109662.page">Student Success &amp; Career Development</a></li><li><a href="/educator/discipline/Trades-Technology/91109644.page">Trades &amp; Technology</a></li><li><a href="/educator/discipline/World-Languages/91109659.page">World Languages</a></li></ul></div></div></div></div><div class="ls-cmp-wrap" id="w1287880568663"><div class="iw_component my-component" id="1287880568663"><xmp id='exceptionStackTrace' style='display:none;'>java.lang.RuntimeException: Failed to execute rules and externals
+	at com.interwoven.livesite.runtime.model.component.Component.executeExternal(Component.java:400)
+	at com.interwoven.livesite.runtime.model.page.RuntimeComponent.buildComponentTransformData(RuntimeComponent.java:200)
+	at com.interwoven.livesite.runtime.model.page.RuntimeComponent.transform(RuntimeComponent.java:281)
+	at com.interwoven.livesite.runtime.page.PageTokenVariableComponent.renderNoCache(PageTokenVariableComponent.java:216)
+	at com.interwoven.livesite.runtime.page.PageTokenVariableComponent.preRender(PageTokenVariableComponent.java:103)
+	at com.interwoven.livesite.runtime.page.PageTokenContainer.preRender(PageTokenContainer.java:260)
+	at com.interwoven.livesite.runtime.model.page.RuntimePage.transformAndOutput(RuntimePage.java:413)
+	at com.interwoven.livesite.runtime.model.page.RuntimePage.transformAndOutput(RuntimePage.java:394)
+	at com.interwoven.livesite.runtime.rendering.RenderingManager.doOutputPage(RenderingManager.java:1251)
+	at com.interwoven.livesite.runtime.rendering.RenderingManager.doOutput(RenderingManager.java:1178)
+	at com.interwoven.livesite.runtime.rendering.RenderingManager.doSetupRenderingObjects(RenderingManager.java:564)
+	at com.interwoven.livesite.runtime.rendering.RenderingManager.renderPageGoal(RenderingManager.java:311)
+	at com.interwoven.livesite.runtime.rendering.RenderingManager.render(RenderingManager.java:240)
+	at com.interwoven.livesite.runtime.impl.BaseRequestContext.render(BaseRequestContext.java:235)
+	at com.interwoven.livesite.runtime.filter.LiveSiteFilter.doFilter(LiveSiteFilter.java:126)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:236)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:167)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.pearson.filter.RegexDrivenPageCacheFilter.buildPage(RegexDrivenPageCacheFilter.java:269)
+	at com.pearson.filter.RegexDrivenPageCacheFilter.buildPageInfo(RegexDrivenPageCacheFilter.java:236)
+	at com.pearson.filter.RegexDrivenPageCacheFilter.doFilter(RegexDrivenPageCacheFilter.java:216)
+	at com.pearson.filter.RegexDrivenPageCacheFilter.doFilter(RegexDrivenPageCacheFilter.java:419)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.pearson.filter.SessionTimeoutFilter.doFilter(SessionTimeoutFilter.java:82)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at com.pearson.filter.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:83)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:568)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:286)
+	at org.apache.jk.server.JkCoyoteHandler.invoke(JkCoyoteHandler.java:190)
+	at org.apache.jk.common.HandlerRequest.invoke(HandlerRequest.java:283)
+	at org.apache.jk.common.ChannelSocket.invoke(ChannelSocket.java:767)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:697)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:889)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:690)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.lang.RuntimeException: Execution exception in com.interwoven.livesite.external.ExternalCall@3b25acec[object=com.pearson.livesite.hip.pearsonhighered.action.discipline.DisciplineAction,method=public org.dom4j.Document renderBreadcrumbTrail(com.interwoven.livesite.runtime.RequestContext,),scope=local,parameters={},prefixCalls=[]]
+	at com.interwoven.livesite.common.pojo.PojoMethodCall.execute(PojoMethodCall.java:459)
+	at com.interwoven.livesite.external.ExternalCall.execute(ExternalCall.java:135)
+	at com.interwoven.livesite.runtime.model.component.Component.executeExternal(Component.java:379)
+	... 44 more
+Caused by: java.lang.RuntimeException: Could not invoke method: renderBreadcrumbTrail, reason: Error performing 'com.pearson.wcm.service.ProductServiceManager.findProductDataForBreadcrumb (BreadCrumbVO breadCrumbVO)' --> org.springframework.dao.DataAccessResourceFailureException: could not execute query; nested exception is org.hibernate.exception.JDBCConnectionException: could not execute query
+	at com.interwoven.livesite.common.util.ClassUtils.executeMethod(ClassUtils.java:113)
+	at com.interwoven.livesite.common.pojo.PojoMethodCall.executeMethod(PojoMethodCall.java:400)
+	at com.interwoven.livesite.common.pojo.PojoMethodCall.execute(PojoMethodCall.java:454)
+	... 46 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor345.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at com.interwoven.livesite.common.util.ClassUtils.executeMethod(ClassUtils.java:105)
+	... 48 more
+Caused by: com.pearson.wcm.service.ProductServiceManagerException: Error performing 'com.pearson.wcm.service.ProductServiceManager.findProductDataForBreadcrumb (BreadCrumbVO breadCrumbVO)' --> org.springframework.dao.DataAccessResourceFailureException: could not execute query; nested exception is org.hibernate.exception.JDBCConnectionException: could not execute query
+	at com.pearson.wcm.service.ProductAttributeServiceManagerBase.findProductDataForBreadcrumb(ProductAttributeServiceManagerBase.java:587)
+	at sun.reflect.GeneratedMethodAccessor368.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:307)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:182)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:149)
+	at org.springframework.orm.hibernate3.HibernateInterceptor.invoke(HibernateInterceptor.java:111)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:106)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:204)
+	at $Proxy58.findProductDataForBreadcrumb(Unknown Source)
+	at com.pearson.livesite.hip.pearsonhighered.action.discipline.DisciplineAction.synthesizeBreadcrumbTrail(DisciplineAction.java:729)
+	at com.pearson.livesite.hip.pearsonhighered.action.discipline.DisciplineAction.renderBreadcrumbTrail(DisciplineAction.java:379)
+	... 52 more
+Caused by: oracle.net.ns.NetException: Socket read timed out
+	at oracle.net.ns.Packet.receive(Packet.java:249)
+	at oracle.net.ns.DataPacket.receive(DataPacket.java:92)
+	at oracle.net.ns.NetInputStream.getNextPacket(NetInputStream.java:172)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:117)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:92)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:77)
+	at oracle.jdbc.driver.T4CMAREngine.unmarshalUB1(T4CMAREngine.java:1034)
+	at oracle.jdbc.driver.T4CMAREngine.unmarshalSB1(T4CMAREngine.java:1010)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:588)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:191)
+	at oracle.jdbc.driver.T4CCallableStatement.executeForRows(T4CCallableStatement.java:950)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1222)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3387)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3488)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:3857)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1374)
+	at org.hibernate.dialect.Oracle8iDialect.getResultSet(Oracle8iDialect.java:437)
+	at org.hibernate.jdbc.AbstractBatcher.getResultSet(AbstractBatcher.java:215)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1809)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:697)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:259)
+	at org.hibernate.loader.Loader.doList(Loader.java:2232)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2129)
+	at org.hibernate.loader.Loader.list(Loader.java:2124)
+	at org.hibernate.loader.custom.CustomLoader.list(CustomLoader.java:312)
+	at org.hibernate.impl.SessionImpl.listCustomQuery(SessionImpl.java:1723)
+	at org.hibernate.impl.AbstractSessionImpl.list(AbstractSessionImpl.java:165)
+	at org.hibernate.impl.SQLQueryImpl.list(SQLQueryImpl.java:175)
+	at org.springframework.orm.hibernate3.HibernateTemplate$33.doInHibernate(HibernateTemplate.java:997)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:419)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:374)
+	at org.springframework.orm.hibernate3.HibernateTemplate.findByNamedQuery(HibernateTemplate.java:988)
+	at com.pearson.wcm.domain.ProductAttribValuesDaoImpl.findProductDataForBreadcrumb(ProductAttribValuesDaoImpl.java:642)
+	at sun.reflect.GeneratedMethodAccessor369.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:307)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:182)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:149)
+	at org.springframework.orm.hibernate3.HibernateInterceptor.invoke(HibernateInterceptor.java:111)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:204)
+	at $Proxy55.findProductDataForBreadcrumb(Unknown Source)
+	at com.pearson.wcm.service.ProductAttributeServiceManagerImpl.handleFindProductDataForBreadcrumb(ProductAttributeServiceManagerImpl.java:1131)
+	at com.pearson.wcm.service.ProductAttributeServiceManagerBase.findProductDataForBreadcrumb(ProductAttributeServiceManagerBase.java:585)
+	... 66 more
+</xmp></div></div></div></div><div class="ls-row-clr" ></div></div></div><div class="ls-row" id="ls-row-4"><div class="ls-fxr" id="ls-gen7-ls-fxr"><div class="ls-area contentContainer" id="ls-row-4-area-1"><div class="ls-area-body" id="ls-gen8-ls-area-body"><div class="ls-cmp-wrap ls-1st" id="w1270671923803"><div class="iw_component my-component" id="1270671923803"><script type="text/javascript">
+		var bodyClass = $('body').attr('class');
+		$('body').attr('class', bodyClass + ' product-page');
+	</script><script src="/dwr-invoke/interface/ajaxExamCopyRequestLayer.js" type="text/javascript"></script><script src="/dwr-invoke/engine.js" type="text/javascript"></script><script type="text/javascript" src="/assets/hip/ca/hip_ca_pearsonhighered/scripts/wz_tooltip.js"></script><style type="text/css">
+		a {
+			color: #0044AA;
+		}
+		.downloadLink
+		{
+			color: #0044AA !important;
+		}
+		strong {
+			color: inherit !important;
+		}
+		a strong {
+			color: #0044AA !important;
+		} 
+		h1 {
+			padding : 0;
+		}
+		h2 {
+			font-weight: normal;
+			padding : 0;
+		}
+		</style><span style="display:none" id="isValidDCRForTCLExist">false</span><form id="netPriceForm" name="netPriceForm" action="/pearsonhigheredca/educator/product/products_detail.page?submit=true&componentID=1270671923803" method="post"><input value="" id="listOfIdsToBeHided" name="listOfIdsToBeHided" type="hidden"/><input value="" id="listOfIdsNotToBeHided" name="listOfIdsNotToBeHided" type="hidden"/></form><div xmlns:pearsonUtil="http://www.oracle.com/XSL/Transform/java/com.pearson.livesite.hip.util.PearsonUtil" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="loginLayer" name="loginLayer" class="ui-dialog ui-widget ui-widget-content ui-corner-all dialogClass"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-dialog-title-modal-content" class="ui-dialog-title"></span><a role="button" class="closeLoginLayer ui-dialog-titlebar-close ui-corner-all" href="product-page.html"><span class="ui-icon ui-icon-closethick">close</span></a></div><div id="error" class="modal-content hide"></div><div id="sign-in" class="modal-content"><h1 class="color-match">Sign in to the Instructor Resource Centre</h1><div id="col-1" class="col-1"><div class="ajax-mask"><div class="ajax-status"><span class="color-match"></span></div></div><form id="newForm" action="/pearsonhigheredca/educator/product/products_detail.page?submit=true&componentID=1270671923803" method="post"/><label for="loginname">User name:</label><input id="loginname" name="textname" class="text" type="text"/><label for="password1">Password:</label><input id="password1" name="text" class="text" type="password"/><div class="group text-right"><a style="margin-right:6px; border:1px solid #ccc;" class="closeLoginLayer button grey" name="cancel" id="cancel" href="product-page.html">Cancel</a><input value="Sign in" class="ui-button ui-state-default ui-corner-all" name="submit" id="submit" type="submit"/></div></form></div><div class="col-2"><ul><li><a class="color-match" rel="ext" href="https://register.pearsoncmg.com/forgotlogin/fl_enter_data.jsp">› Forgot username / password?</a></li><li><a rel="ext" class="color-match" href="https://register.pearsoncmg.com/register/reg1.jsp">› Redeem an access code</a></li><li><a class="color-match" href="/pearsonhigheredca/ircrequestaccess/irc_countries_selection.page?productCode=catalogue.pearsoned.ca">› Request access</a></li></ul></div></div></div><div xmlns:pearsonUtil="http://www.oracle.com/XSL/Transform/java/com.pearson.livesite.hip.util.PearsonUtil" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none;" class="dialogClass" id="errorLoginMessage"><p style="font-size:18px;font-family:Georgia;text-align:center;padding-top:9px;padding-bottom:8px">We're sorry!</p><p style="padding-left:30px;font-size:12px;">We don't recognize your login or password. Please <a onclick="swapModalLayer('errorLoginMessage','loginLayer');" href="javascript:void(0);">try again</a>. </p><p style="padding-left:30px;font-size:12px;"><br/>
+		If you continue to have problems, try
+		<a onclick="window.open('https://register.pearsoncmg.com/forgotlogin/fl_enter_data.jsp', null, 'height=400,width=600,status=no,toolbar=no,menubar=no,location=no'); return false;" href="javascript:void(0);">retrieving your login name password</a> or <a onclick="closePopUp('errorLoginMessage');window.open('https://support.pearson.com/getsupport/s/'); return false;" href="javascript:void(0);">contacting Customer Technical Support</a>.<br/></p><br/></div><div xmlns:pearsonUtil="http://www.oracle.com/XSL/Transform/java/com.pearson.livesite.hip.util.PearsonUtil" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none;" class="dialogClass" id="nonIrcSubscribedErrMessage"><p style="font-size:18px;font-family:Georgia;text-align:center;padding-top:9px;padding-bottom:8px">
+				We're sorry!
+			</p><br/><p style="padding-left:30px;font-size:12px;">
+				The account you used to log in on the previous website does not contain IRC access.<br/>
+				If you have a separate IRC account, please <a onclick="swapModalLayer('nonIrcSubscribedErrMessage','loginLayer');" href="javascript:void(0);">log in</a> using that login name and password.<br/>
+				If you do not have an IRC account, you can <a onclick="closePopUp('nonIrcSubscribedErrMessage');window.open('/pearsonhigheredca/ircrequestaccess/irc_countries_selection.page?productCode=catalogue.pearsoned.ca'); return false;" href="javascript:void(0);">request access here.</a></p><br/></div><div xmlns:pearsonUtil="http://www.oracle.com/XSL/Transform/java/com.pearson.livesite.hip.util.PearsonUtil" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none;" class="dialogClass" id="expireSoonMessage"><p style="margin-top:-1" class="alignrightImg"><a onclick="closePopUp('expireSoonMessage')" href="javascript:void(0);">close window
+			</a></p><p style="font-size:18px;font-family:Georgia;text-align:center;padding-top:9px;padding-bottom:8px">Your access will expire soon.</p><p style="padding-left:30px;font-size:12px;">To ensure uninterrupted service, you should renew your access for this site soon.<br/><br/><a onclick="window.open('https://register.pearsoncmg.com/reg/open/open1.jsp?productID=45386'); return false;" href="javascript:void(0);">Renew now</a> or  <a onclick="swapModalLayer('expireSoonMessage','downloadResource');" href="javascript:void(0);">proceed without renewing</a>.
+		</p><br/><br/><br/><br/><br/></div><div xmlns:pearsonUtil="http://www.oracle.com/XSL/Transform/java/com.pearson.livesite.hip.util.PearsonUtil" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none;" class="dialogClass" id="expiredMessage"><p style="margin-top:-1" class="alignrightImg"><a onclick="closePopUp('expiredMessage')" href="javascript:void(0);">close window
+				
+			</a></p><p style="font-size:18px;font-family:Georgia;text-align:center;padding-top:9px;padding-bottom:8px">We're sorry!</p><br/><p style="padding-left:70px;font-size:12px;">
+		Your access to the Instructor Resource Centre has expired.<br/><br/>
+
+		To continue using the IRC, <a onclick="closePopUp('expiredMessage');window.open('https://register.pearsoncmg.com/reg/open/open1.jsp?productID=45386'); return false;" href="javascript:void(0);">renew your access now</a>.<br/><br/></p><br/><br/><br/><br/><br/></div><div xmlns:pearsonUtil="http://www.oracle.com/XSL/Transform/java/com.pearson.livesite.hip.util.PearsonUtil" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none;" class="dialogClass" id="ssoErrorMessage" align="center"><p style="font-size:18px;font-family:Georgia;text-align:center;padding-top:9px;padding-bottom:8px">An internal error has occurred. Please try again.</p><br/><br/><br/><input id="cancel" name="cancel" class="findbttn" value="Close" type="button" onclick="javascript:closePopUp(&quot;ssoErrorMessage&quot;,&quot;&quot;);closePopUp('loginLayer');"/>  
+		</div><div xmlns:pearsonUtil="http://www.oracle.com/XSL/Transform/java/com.pearson.livesite.hip.util.PearsonUtil" xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" style="display:none;" class="group dialogClass ui-dialog ui-widget ui-widget-content ui-corner-all" id="downloadResource"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span id="ui-dialog-title-modal-content" class="ui-dialog-title">Instructor Resource Centre File Download</span><a role="button" class="ui-dialog-titlebar-close ui-corner-all" href="javascript:closePopUp('downloadResource')"><span class="ui-icon ui-icon-closethick">close</span></a></div><div class="modal-content"><br/><p align="justify">
+					This work is protected by local and international copyright laws and is provided solely for the use of instructors in teaching their courses and assessing student learning. Dissemination or sale of any part of this work (including on the World Wide Web) will destroy the integrity of the work and is not permitted. The work and materials from this site should never be made available to students except by instructors using the accompanying text in their classes. All recipients of this work are expected to abide by these restrictions and to honor the intended pedagogical purposes and the needs of other instructors who rely on these materials.
+				</p><div class="group text-right"><a style="margin-right:6px; border:1px solid #ccc;" class="closeLoginLayer button grey" name="cancel" id="cancel" onclick="closePopUp('downloadResource')" href="javascript:void(0);">Cancel</a>  <a class="ui-button ui-state-default ui-corner-all ui-state-hover" href="javascript:void(0);" id="downloadURL" onclick="downloadResource('//','');return false;">I accept, proceed with download</a></div></div></div><div id="contentContainer"><div style="display: none; width: auto; min-height: 91.4667px; height: auto;" id="exam-copy-modal" class="modal group"><div class="default-content"><h2>You can preview this product in two ways:</h2><div class="text-center group" style="width:80%; margin:0 auto;"><a title="Opens in new tab/window | " href="https://www.vitalsource.com/en-ca/search?term=9780133594409" rel="ext" class="button digital-option">View online at<br/>VitalSource.com</a><a href="" class="button print-option float-right">Request printed<br/>exam copy</a><a style="display: none;" href="javascript:void(0);" class="button close-modal continue-browsing grey hide">Continue browsing</a><a style="display: none;" href="/educator/exam_copy/bookBag.page?mappingId=&amp;isbn=9780133594409" class="button view-bookbag float-right hide">View my bookbag</a></div></div><div style="display: none;" class="ajax-mask inside-modal"><div class="ajax-status"><span class="ajax-update">Updating your exam copy bookbag…</span></div></div></div><div id="wrapper"><div class="full-width-wrap group"><div class="sidebar-xtra-narrow float-right"><div id="share-this"><span class="st_sharethis_custom"><a href="javascript:;">Share this page</a><span class="st-custom-icon bg-color-match"></span></span></div><a style="display: none;" id="badge" href="#dw_resources" class="button expose-tab-content">Download resources</a><a title="Opens in new tab/window | http://www.mypearsonstore.ca/bookstore/product.asp?isbn=0133594408&amp;xid=PSED" href="http://www.mypearsonstore.ca/bookstore/product.asp?isbn=0133594408&amp;xid=PSED" style="display: block;" target="_blank" class="button buy" id="buyButton">Buy this product</a><a style="display:none;" target="_blank" class="button buy" id="studentBuyButton">Students, buy access</a><ul id="additional_options" class="options"><li class="has-dropdown"><a href="javascript:void(0);" class="dd-toggle">Additional options</a><ul id="inner_options"><li><a href="/educator/first_day_class/fdocRegistration.page?isbn=9780133594409">
+											Get ready for class
+										</a></li><li><a onClick="window.open('/educator/product/products_printable.page?isbn10=0133594408&amp;isbn13=9780133594409');" href="#">
+											Print this page
+										</a></li></ul></li></ul><script type="text/javascript">
+							if(!$("#inner_options li > a").length)
+							{
+								$("#additional_options").hide();
+							}
+						</script></div><div style="width:640px!important;" class="main-content float-left group no-padding no-margin"><div class="cover"><div class="relative"><a href="http://www-fp.pearsonhighered.com/assets/hip/images/bigcovers/0133594408.jpg" rel="prettyPhoto" title="View larger cover" class="cover-link"><div style="background-image: url('http://www-fp.pearsonhighered.com/assets/hip/images/coverimage/0133594408.jpg');background-size: 100% 100%; width:118px;height:144px;margin-bottom:3px;border:1px solid #333;" id="primary-cover"></div></a></div><p class="text-center"><a href="http://www-fp.pearsonhighered.com/assets/hip/images/bigcovers/0133594408.jpg" rel="prettyPhoto">View larger cover</a></p></div><dl class="product"><dt class="color-match">Solutions Manual for Wireless Communication Networks and Systems</dt><dd class="author">William Stallings</dd><dd class="debugHCL" style="display:none">
+							productFormatCode=W22<br/> 
+							productCategory=12<br/> 
+							statusCode=5<br/> 
+							isBuyable=false<br/> 
+							subType=<br/> 
+							path/ProductBean/courseSmart</dd><dd class="mar-top-12px">
+							ISBN-10: 0133594408 •							
+							ISBN-13: <span>9780133594409</span><span style="display:none" class="isbn13">9780133594409</span><span style="display:none" class="pricelyCourseSmartIsbn">9780133594409</span></dd><dd>
+								©2016
+								• Pearson
+								• Online</dd><dd>
+								Published 03/09/2015 • Live<br/><br/><span style="display:none;" id="netPriceZeroPriceWithNoHEPMURL"></span><script type="text/javascript">if($("#buyButton").length){$("#buyButton").hide();}</script></dd><dd class="debugDiv" style="display:none;">
+							prodCategory : 12<br/>
+							statusCode	 : 5<br/></dd></dl></div></div><div class="clear"></div></div><a class="anchor" id="tab-top" name="tab-top"></a><div class="full-width-wrap clear-both mar-top-36px tabs-container group"><ul class="tabs has-two-line group"><li><a title="Show: About This Product" rel="toggle-content" href="#tab-about-this-product">About This<br/>Product</a></li><li><a title="Show: Download Resources" rel="toggle-content" href="#tab-download-resources">Download<br/>Resources</a></li><li><a title="Show: Packages" class="vertical-align" rel="toggle-content" href="#packages">Packages</a></li></ul></div><div class="full-width-wrap mar-top-12px pad-right-12px product-page-controls"><a class="print" href="javascript:void(0);">Print this content</a></div><div id="tab-about-this-product" class="tab-content-wrap group"><div class="tab-content group"><ul class="section-toc group" id="left-column"><li><h1>In this section:</h1></li><li><a rel="toggle-content" href="#description">About This Product</a></li><li class="hide" id="prefaceLi"><a href="/assets/hip/ca/hip_ca_pearsonhighered/preface/0133594408.pdf" target="_blank">
+								Preface (PDF)
+							</a></li><script type="text/javascript">
+							var isbn10 = "0133594408";
+							function displayPrefaceIfExist() {
+							  var http = new XMLHttpRequest();
+							  http.open('HEAD', '/assets/hip/ca/hip_ca_pearsonhighered/preface/' + isbn10 + '.pdf', false);
+							  http.send();
+							  if(http.status==200){
+								$("#prefaceLi").removeClass("hide");
+							  }
+							  return;
+							}
+							displayPrefaceIfExist();
+						</script><li><a rel="toggle-content" href="#courses">Courses</a></li></ul><div class="data-feed float-right"><div class="marketing-copy" id="description"><h1>About This Product</h1><h2 class="uppercase color-match mar-top-24px">This product accompanies</h2><ul class="normalize mar-top-9px mar-left-24px"><li><a href="/educator/product/Wireless-Communication-Networks-and-Systems/9780133594171.page"><strong>Wireless Communication Networks and Systems</strong></a><p>Beard &amp; Stallings</p><p>ISBN-10: 0133594173 • ISBN-13: 9780133594171</p><p>
+														©2016 • Paper, 608 pp</p><form id="Parent_9780133594171" name="Parent_9780133594171" action="/pearsonhigheredca/educator/product/products_detail.page?submit=true&componentID=1270671923803" method="post"><input name="parentISBN10" id="parentISBN10" type="hidden" value="0133594173"/><input name="parentISBN13" id="parentISBN13" type="hidden" value="9780133594171"/><input name="parentLeadAuthorLastName" id="parentLeadAuthorLastName" type="hidden" value="Beard &amp; Stallings"/><input name="parentLeadAuthorFirstName" id="parentLeadAuthorFirstName" type="hidden" value=""/><input name="parentTitle" id="parentTitle" type="hidden" value="Wireless Communication Networks and Systems"/><input name="parentEdition" id="parentEdition" type="hidden" value="1"/><input name="parentCopyRightYear" id="parentCopyRightYear" type="hidden" value="2016"/></form></li></ul><script type="text/javascript">
+										$("#description h2").first().attr('class', 'uppercase color-match');
+									</script></div><div id="courses" class="marketing-copy"><h1>Courses</h1><ul class="normalize"><li><a href="/educator/course/Wireless-Communications-and-Networking/91110992.page">Wireless Communications and Networking (Computer Science)</a></li></ul></div></div></div></div><div class="tab-content-wrap group" id="tab-download-resources"><div class="tab-content group"><div class="data-feed float-right"><div class="marketing-copy" id="download-resources"><h1>Download Resources</h1><p><a title="Opens in new tab/window" target="_blank" href="/educator/main_content/instructor_resources_download_info.page">Help downloading instructor resources</a></p><ol class="normalize mar-left-24px"><li><a href="#" onclick="javascript:submitDownloadResourceForm(&quot;http://download.pearsoned.com/resourcedownload/?media_id=232628&quot;,&quot;0133594408&quot;,&quot;0133594408&quot;,&quot;0133594408_SM-232628.pdf&quot;,&quot;none&quot;);"><strong>Solutions Manual<span class="uppercase"> (pdf)</span></strong></a> (4.1MB)<p>Available for download</p><form name="supplementDownloadDataForm" id="0133594408_SM-232628.pdf" action="/pearsonhigheredca/educator/product/products_detail.page?submit=true&componentID=1270671923803" method="post"><input name="supplementISBN10" id="supplementISBN10" type="hidden" value="0133594408"/><input name="supplementISBN13" id="supplementISBN13" type="hidden" value="9780133594409"/><input name="leadAuthor" id="leadAuthor" type="hidden" value="William Stallings Stallings"/><input name="supplementTitle" id="supplementTitle" type="hidden" value="Solutions Manual for Wireless Communication Networks and Systems"/><input name="edition" id="edition" type="hidden" value="1"/><input name="copyRightYear" id="copyRightYear" type="hidden" value="2016"/><input name="parentISBN10" id="parentISBN10" type="hidden"/><input name="parentISBN13" id="parentISBN13" type="hidden"/><input name="parentLeadAuthorLastName" id="parentLeadAuthorLastName" type="hidden"/><input name="parentLeadAuthorFirstName" id="parentLeadAuthorFirstName" type="hidden"/><input name="parentTitle" id="parentTitle" type="hidden"/><input name="parentEdition" id="parentEdition" type="hidden"/><input name="parentCopyRightYear" id="parentCopyRightYear" type="hidden"/><input name="fileName" id="fileName" type="hidden" value="0133594408_SM-232628.pdf"/><input name="linkText" id="linkText" type="hidden" value="Solutions Manual"/><input name="mediaID" id="mediaID" type="hidden" value="http://download.pearsoned.com/resourcedownload/?media_id=232628"/><input name="supplementSourceGroupCode" id="supplementSourceGroupCode" type="hidden" value="L"/><input name="fileFldr" id="fileFldr" type="hidden"/><input name="iwPreActions" id="iwPreActions" type="hidden"/></form></li><li><a href="#" onclick="javascript:submitDownloadResourceForm(&quot;http://download.pearsoned.com/resourcedownload/?media_id=250177&quot;,&quot;0133594408&quot;,&quot;0133594408&quot;,&quot;0133594408_irc-250177.zip&quot;,&quot;none&quot;);"><strong>Wireshark Projects Solutions<span class="uppercase"> (zip)</span></strong></a> (39.8MB)<p>Available for download</p><form name="supplementDownloadDataForm" id="0133594408_irc-250177.zip" action="/pearsonhigheredca/educator/product/products_detail.page?submit=true&componentID=1270671923803" method="post"/><input name="supplementISBN10" id="supplementISBN10" type="hidden" value="0133594408"/><input name="supplementISBN13" id="supplementISBN13" type="hidden" value="9780133594409"/><input name="leadAuthor" id="leadAuthor" type="hidden" value="William Stallings Stallings"/><input name="supplementTitle" id="supplementTitle" type="hidden" value="Solutions Manual for Wireless Communication Networks and Systems"/><input name="edition" id="edition" type="hidden" value="1"/><input name="copyRightYear" id="copyRightYear" type="hidden" value="2016"/><input name="parentISBN10" id="parentISBN10" type="hidden"/><input name="parentISBN13" id="parentISBN13" type="hidden"/><input name="parentLeadAuthorLastName" id="parentLeadAuthorLastName" type="hidden"/><input name="parentLeadAuthorFirstName" id="parentLeadAuthorFirstName" type="hidden"/><input name="parentTitle" id="parentTitle" type="hidden"/><input name="parentEdition" id="parentEdition" type="hidden"/><input name="parentCopyRightYear" id="parentCopyRightYear" type="hidden"/><input name="fileName" id="fileName" type="hidden" value="0133594408_irc-250177.zip"/><input name="linkText" id="linkText" type="hidden" value="Wireshark Projects Solutions"/><input name="mediaID" id="mediaID" type="hidden" value="http://download.pearsoned.com/resourcedownload/?media_id=250177"/><input name="supplementSourceGroupCode" id="supplementSourceGroupCode" type="hidden" value="L"/><input name="fileFldr" id="fileFldr" type="hidden"/><input name="iwPreActions" id="iwPreActions" type="hidden"/></form></li><li><a href="#" onclick="javascript:submitDownloadResourceForm(&quot;http://download.pearsoned.com/resourcedownload/?media_id=283155&quot;,&quot;0133594408&quot;,&quot;0133594408&quot;,&quot;9780133594409_sm-283155.zip&quot;,&quot;none&quot;);"><strong>Accessible Solutions Manual - PDF<span class="uppercase"> (zip)</span></strong></a> (6.3MB)<p>Available for download</p><form name="supplementDownloadDataForm" id="9780133594409_sm-283155.zip" action="/pearsonhigheredca/educator/product/products_detail.page?submit=true&componentID=1270671923803" method="post"/><input name="supplementISBN10" id="supplementISBN10" type="hidden" value="0133594408"/><input name="supplementISBN13" id="supplementISBN13" type="hidden" value="9780133594409"/><input name="leadAuthor" id="leadAuthor" type="hidden" value="William Stallings Stallings"/><input name="supplementTitle" id="supplementTitle" type="hidden" value="Solutions Manual for Wireless Communication Networks and Systems"/><input name="edition" id="edition" type="hidden" value="1"/><input name="copyRightYear" id="copyRightYear" type="hidden" value="2016"/><input name="parentISBN10" id="parentISBN10" type="hidden"/><input name="parentISBN13" id="parentISBN13" type="hidden"/><input name="parentLeadAuthorLastName" id="parentLeadAuthorLastName" type="hidden"/><input name="parentLeadAuthorFirstName" id="parentLeadAuthorFirstName" type="hidden"/><input name="parentTitle" id="parentTitle" type="hidden"/><input name="parentEdition" id="parentEdition" type="hidden"/><input name="parentCopyRightYear" id="parentCopyRightYear" type="hidden"/><input name="fileName" id="fileName" type="hidden" value="9780133594409_sm-283155.zip"/><input name="linkText" id="linkText" type="hidden" value="Accessible Solutions Manual - PDF"/><input name="mediaID" id="mediaID" type="hidden" value="http://download.pearsoned.com/resourcedownload/?media_id=283155"/><input name="supplementSourceGroupCode" id="supplementSourceGroupCode" type="hidden" value="L"/><input name="fileFldr" id="fileFldr" type="hidden"/><input name="iwPreActions" id="iwPreActions" type="hidden"/></form></li></ol></div></div></div></div><div class="tab-content-wrap group" id="packages"><div class="tab-content group"><div class="data-feed float-right"><div class="marketing-copy" id="packages"><p>
+                                                                                Pearson Higher Education offers special pricing when you choose to package your text with other student resources. If you're interested in creating a cost-saving package for your students contact your
+                                                                                <a href="/educator/replocator/requestSalesRep.page">Pearson Higher Education representative</a>.
+                                                                        </p></div></div></div></div></div><div class="global-scroll"><a class="scroll-top" rel="anchor" href="#top">Back to Top</a></div><script type="text/javascript">
+			function hideLinkExamCopy()
+			{
+				//alert('hideLinkExamCopy : start');
+				var supDispId = document.getElementById('supDispHiddenVal').value;
+				//alert('sup Disp ' + supDispId);
+				if(supDispId == '')
+				{
+					document.getElementById('examCopyDiv').style.display = "none";
+				}
+				//alert('hideLinkExamCopy: end');
+			}
+			//hideLinkExamCopy();
+			//initializeTabs();
+        </script><form name="downloadResourcesForm" id="downloadResourcesForm" action="/pearsonhigheredca/educator/product/products_detail.page?submit=true&componentID=1270671923803" method="post"><input name="fileUrl" type="hidden"/><input name="fileName" type="hidden"/><input name="isbn" type="hidden"/><input name="prodIsbn" type="hidden"/><input name="iwPreActions" type="hidden"/></form><script type="text/javascript">
+		function openViewDemoBB(pageLink)
+		{
+			window.open(pageLink,'_blank','left=250,scrollbars=yes,width=575,height=600,resizable=yes,location=1,status=1');
+			return false;
+		}
+
+		function openViewDemoWebct(pageLink)
+		{
+			alert('To view this free demonstration you will need the following passwords:\n Username: pearsondemo\n Password: pearsondemo');
+			var wOpen;
+			var sOptions;
+
+			sOptions = 'status=yes,menubar=yes,scrollbars=yes,resizable=yes,toolbar=yes';
+			sOptions = sOptions + ',width=' + (screen.availWidth - 10).toString();
+			sOptions = sOptions + ',height=' + (screen.availHeight - 122).toString();
+			sOptions = sOptions + ',screenX=0,screenY=0,left=0,top=0';
+
+			wOpen = window.open( '', 'demoWnd', sOptions );
+			wOpen.location = pageLink;
+			wOpen.focus();
+			wOpen.moveTo( 0, 0 );
+			wOpen.resizeTo( screen.availWidth, screen.availHeight );
+			return wOpen;
+		}
+		function netPrice_popup_display_new(obj) {
+			var _objY = obj.offsetLeft;
+			var _objX = obj.offsetTop;
+			var parent = obj.offsetParent;
+			while(parent != null)
+			{
+				_objY += parent.offsetLeft;
+				_objX += parent.offsetTop;
+				parent = parent.offsetParent;
+			}
+			_objY += 10;
+			_objX -= 60;
+			var parentObj = document.getElementById('netPricePopup');
+			var popupTarget = parentObj.getElementsByTagName("div")[0];
+			parentObj.style.display = "block";
+			parentObj.style.top = _objX + "px";
+			parentObj.style.left = _objY + "px";
+			parentObj.style.width = "auto";
+			
+			/* Resetting Innre Child */
+			popupTarget.style.top = "0px";
+			popupTarget.style.left = "0px";
+			popupTarget.style.position = "relative";
+		}
+		function showHideNetPrice(arrayOfIdsToBeHided,task)
+		{
+		
+		}
+
+		function showHideNetPrice1(arrayOfIdsToBeHided,task)
+		{
+			var ArrayOfIdsToBeHided = new Array();
+			ArrayOfIdsToBeHided = arrayOfIdsToBeHided;
+			for(var i=0;i<=(ArrayOfIdsToBeHided.length)-1;i++)
+			{
+				if(document.getElementById(ArrayOfIdsToBeHided[i])!=null)
+				{
+					if(task == 'show')
+					{
+						if(document.getElementById(ArrayOfIdsToBeHided[i]) != null )
+							$("#"+ArrayOfIdsToBeHided[i]).show();
+							//document.getElementById(ArrayOfIdsToBeHided[i]).style.display = 'block';
+					}
+					if(task == 'hide')
+					{
+						if(document.getElementById(ArrayOfIdsToBeHided[i]) != null )
+						{
+							document.getElementById(ArrayOfIdsToBeHided[i]).style.display = 'none';
+							if(ArrayOfIdsToBeHided[i].search("netPriceElearnTabNotImage1") == '-1' && ArrayOfIdsToBeHided[i].search("netPriceNotImage1") == '-1' && ArrayOfIdsToBeHided[i].search("netPriceImage1") == '-1' && ArrayOfIdsToBeHided[i].search("netPriceUrl4") == '-1' && ArrayOfIdsToBeHided[i].search("netPrice4") == '-1')							
+							document.getElementById(ArrayOfIdsToBeHided[i]).innerHTML = '';
+						}
+						if(ArrayOfIdsToBeHided[i].search("netPriceElearnTabNotImage1") != '-1' || ArrayOfIdsToBeHided[i].search("netPriceNotImage1") != '-1' || ArrayOfIdsToBeHided[i].search("netPriceImage1") != '-1' || ArrayOfIdsToBeHided[i].search("netPriceUrl4") != '-1' || ArrayOfIdsToBeHided[i].search("netPrice4") != '-1' ){
+							//document.getElementById(ArrayOfIdsToBeHided[i]).style.display = 'block';
+							$("#"+ArrayOfIdsToBeHided[i]).show();
+						}
+					}
+				}
+			}
+		}
+	</script><input value="catalogbox" id="dispbox" name="dispbox" type="hidden"/><input value="http://prod01.ts.wcm.svvsbak.pearsontc.net/" id="tsurl" name="tsurl" type="hidden"/><input value="iw-cc/command/iw.ccpro.create_form?vpath=" id="tscreatecmd" name="tscreatecmd" type="hidden"/><input value="iw-cc/command/iw.group.ccpro.edit?vpath=" id="tseditcmd" name="tseditcmd" type="hidden"/><input value="//prs-lin-121-njth-peshr" id="tsmount" name="tsmount" type="hidden"/><input value="/hip/main/us/pearsonhighered/WORKAREA/work" id="tsworkarea" name="tsworkarea" type="hidden"/><script type="text/javascript">
+	if(document.getElementById('loggedInDiv')!=null)
+	{
+		var countryOfUser = document.getElementById('usercountry').value;
+		if($("#netPrice1").length)
+		{	
+			$("#netPrice1").show();
+		}
+		if(document.getElementById('netPrice1Else')!=null)
+		{
+			document.getElementById('netPrice1Else').style.display = 'none';
+			document.getElementById('netPrice1Else').innerHTML = '';
+		}
+		if (countryOfUser == 'USA') 
+		{
+			if($("#netPrice2").length)
+				$("#netPrice2").show();
+		}
+		if(document.getElementById('netPrice3')!= null)
+			document.getElementById('netPrice3').style.display = 'block' ;
+		if($("#netPrice3Copy").length)
+			$("#netPrice3Copy").show();
+		if(document.getElementById('netPrice3Else')!= null)
+		{
+			document.getElementById('netPrice3Else').style.display = 'none' ;
+			document.getElementById('netPrice3Else').innerHTML = '';
+		}
+		if($("#netPrice3ElseCopy").length)
+		{
+			$("#netPrice3ElseCopy").hide();
+			$("#netPrice3ElseCopy").html("");
+		}
+		if(document.getElementById('netPriceUpgrade1')!= null)
+			document.getElementById('netPriceUpgrade1').style.display = 'block' ;
+		if(document.getElementById('netPriceUpgrade2')!= null)
+			document.getElementById('netPriceUpgrade2').style.display = 'block' ;
+		if(document.getElementById('netPriceUpgrade3')!= null)
+			document.getElementById('netPriceUpgrade3').style.display = 'block' ;
+		if(document.getElementById('netPriceUpgrade4')!= null)
+			document.getElementById('netPriceUpgrade4').style.display = 'block' ;
+		if(document.getElementById('netPriceUpgrade5')!= null)
+			document.getElementById('netPriceUpgrade5').style.display = 'block' ;
+		if(document.getElementById('netPriceUpgrade6')!= null)
+			document.getElementById('netPriceUpgrade6').style.display = 'block' ;
+		if(document.getElementById('netPriceUpgrade1Else')!= null)
+		{
+			document.getElementById('netPriceUpgrade1Else').style.display = 'none' ;
+			document.getElementById('netPriceUpgrade1Else').innerHTML = '';
+		}
+		if(document.getElementById('netPriceUpgrade2Else')!= null)
+		{
+			document.getElementById('netPriceUpgrade2Else').style.display = 'none' ;
+			document.getElementById('netPriceUpgrade2Else').innerHTML = '';
+		}
+		if(document.getElementById('netPriceUpgrade3Else')!= null)
+		{
+			document.getElementById('netPriceUpgrade3Else').style.display = 'none' ;
+			document.getElementById('netPriceUpgrade3Else').innerHTML = '';
+		}
+		if(document.getElementById('netPriceUpgrade4Else')!= null)
+		{
+			document.getElementById('netPriceUpgrade4Else').style.display = 'none' ;
+			document.getElementById('netPriceUpgrade4Else').innerHTML = '';
+		}
+		if(document.getElementById('netPriceUpgrade5Else')!= null)
+		{
+			document.getElementById('netPriceUpgrade5Else').style.display = 'none' ;
+			document.getElementById('netPriceUpgrade5Else').innerHTML = '';
+		}
+		if(document.getElementById('netPriceUpgrade6Else')!= null)
+		{
+			document.getElementById('netPriceUpgrade6Else').style.display = 'none' ;
+			document.getElementById('netPriceUpgrade6Else').innerHTML = '';
+		}
+		if(document.getElementById('netPriceZeroPriceWithNoHEPMURL') != null)
+			document.getElementById('netPriceZeroPriceWithNoHEPMURL').style.display = 'block';
+		if(document.getElementById('listOfIdsToBeHided')!=null)
+		{
+			var ListOfIdsToBeHided = document.getElementById('listOfIdsToBeHided').value;
+			var ArrayOfIdsToBeHided = new Array();
+			ArrayOfIdsToBeHided = ListOfIdsToBeHided.split(',');
+			if (countryOfUser == 'USA') {
+			 showHideNetPrice(ArrayOfIdsToBeHided,'show');
+           } else {
+             showHideNetPrice(ArrayOfIdsToBeHided,'hide');
+		   }
+		}
+		if(document.getElementById('listOfIdsNotToBeHided')!=null)
+		{
+			var ListOfIdsNotToBeHided = document.getElementById('listOfIdsNotToBeHided').value;
+			var ArrayOfIdsNotToBeHided = new Array();
+			ArrayOfIdsNotToBeHided = ListOfIdsNotToBeHided.split(',');
+			showHideNetPrice(ArrayOfIdsNotToBeHided,'hide');
+			showHideNetPrice(ArrayOfIdsNotToBeHided,'show');
+		}
+		if(document.getElementById('netPrice5')!=null)
+		{
+			document.getElementById('netPrice5').style.display = 'none';
+			document.getElementById('netPrice5').innerHTML ='';
+		}
+		if(document.getElementById('pearsonstore')!=null)
+		{
+			if($("#netPrice1").length)
+			{
+				document.getElementById('pearsonstore').style.display = 'none';
+				document.getElementById('netPrice1').innerHTML = document.getElementById('netPrice1').innerHTML+document.getElementById('pearsonstore').innerHTML;
+				document.getElementById('pearsonstore').innerHTML = '';
+			}
+		}
+	} else {
+		if(document.getElementById('netPricePopup')!=null)
+		{
+			document.getElementById('netPricePopup').innerHTML = '';
+		}
+		if(document.getElementById('netPrice1Else')!=null)
+			document.getElementById('netPrice1Else').style.display = 'block';
+		if($("#netPrice2").length)
+		{
+			$("#netPrice2").hide();
+			$("#netPrice2").html("");
+		}
+		if(document.getElementById('netPrice3')!= null)
+		{
+			document.getElementById('netPrice3').style.display = 'none' ;
+			document.getElementById('netPrice3').innerHTML = '';
+		}
+		if($("#netPrice3Copy").length)
+		{
+			$("#netPrice3Copy").hide();
+			$("#netPrice3Copy").html("");
+		}
+		if(document.getElementById('netPrice3Else')!= null)
+			document.getElementById('netPrice3Else').style.display = 'block' ;
+		if($("#netPrice3ElseCopy").length)
+			$("#netPrice3ElseCopy").show();
+		if(document.getElementById('netPriceUpgrade1')!= null)
+			document.getElementById('netPriceUpgrade1').style.display = 'block' ;
+		if(document.getElementById('netPriceUpgrade2')!= null)
+			document.getElementById('netPriceUpgrade2').style.display = 'block' ;
+		if(document.getElementById('netPriceUpgrade3')!= null)
+			document.getElementById('netPriceUpgrade3').style.display = 'block' ;
+		if(document.getElementById('netPriceUpgrade4')!= null)
+			document.getElementById('netPriceUpgrade4').style.display = 'block' ;
+		if(document.getElementById('netPriceUpgrade5')!= null)
+			document.getElementById('netPriceUpgrade5').style.display = 'block' ;
+		if(document.getElementById('netPriceUpgrade6')!= null)
+			document.getElementById('netPriceUpgrade6').style.display = 'block' ;
+        if(document.getElementById('netPriceZeroPriceWithNoHEPMURL') != null)
+            document.getElementById('netPriceZeroPriceWithNoHEPMURL').style.display = 'block';
+		if(document.getElementById('listOfIdsToBeHided')!=null)
+		{
+			var ListOfIdsToBeHided = document.getElementById('listOfIdsToBeHided').value;
+			var ArrayOfIdsToBeHided = new Array();
+			ArrayOfIdsToBeHided = ListOfIdsToBeHided.split(',');
+			showHideNetPrice(ArrayOfIdsToBeHided,'hide');
+		}
+		if(document.getElementById('listOfIdsNotToBeHided')!=null)
+		{
+			var ListOfIdsNotToBeHided = document.getElementById('listOfIdsNotToBeHided').value;
+			var ArrayOfIdsNotToBeHided = new Array();
+			ArrayOfIdsNotToBeHided = ListOfIdsNotToBeHided.split(',');
+			showHideNetPrice(ArrayOfIdsNotToBeHided,'show');
+		}
+		if(document.getElementById('netPrice5') !=null)
+		{
+			document.getElementById('netPrice5').style.display = 'none';
+			document.getElementById('netPrice5').innerHTML = '';
+		 }
+		if(document.getElementById('netPriceUpgrade3Else') !=null)
+		{
+			document.getElementById('netPriceUpgrade3Else').style.display = 'none';
+			document.getElementById('netPriceUpgrade3Else').innerHTML = '';
+		}
+		if(document.getElementById('netPriceUrl4') !=null)
+			document.getElementById('netPriceUrl4').style.display = 'block';
+		if(document.getElementById('netPrice4') !=null)
+			document.getElementById('netPrice4').style.display = 'block';
+		if($("#netPrice1").length)
+		{
+			$("#netPrice1").show();
+			if(document.getElementById('netPrice1Else') !=null)
+			{
+				document.getElementById('netPrice1Else').style.display = 'none';
+				document.getElementById('netPrice1Else').innerHTML = '';
+			}
+		}
+		if(document.getElementById('netPriceUpgrade3') !=null)
+			document.getElementById('netPriceUpgrade3').style.display = 'block';
+		if(document.getElementById('pearsonstore')!=null)
+		{
+			document.getElementById('pearsonstore').style.display='block';
+		}
+	}
+	
+	$(".studentByAccessSubstitute").hide();
+	$(".goToSubstitute").hide();
+	
+</script><script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script><script src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4d86ac3714d6e9af" type="text/javascript"></script></div></div><div class="ls-cmp-wrap" id="w1287880568655"><div class="iw_component my-component" id="1287880568655"><form xmlns:fn="http://www.w3.org/2005/02/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="dataCaptureForm" id="dataCaptureForm" action="/pearsonhigheredca/educator/product/products_detail.page?submit=true&componentID=1287880568655" method="post"><input name="parentReferISBN13" id="parentReferISBN13" type="hidden" value=""/></form></div></div></div></div><div class="ls-row-clr" ></div></div></div><div class="ls-row" id="ls-row-5"><div class="ls-fxr" id="ls-gen9-ls-fxr"><div class="ls-area" id="ls-row-5-area-1"><div class="ls-area-body" id="ls-gen10-ls-area-body"><div class="ls-cmp-wrap ls-1st" id="w1288304818524"><div class="iw_component my-component" id="1288304818524"><script type="text/javascript" src="/assets/hip/scripts/ca/webtrends.js"></script><script type="text/javascript">
+		var _tag=new WebTrends();
+		_tag.dcsGetId();
+		</script><script type="text/javascript">
+		_tag.dcsCollect();
+		</script><noscript><div><img src="http://statse.webtrendslive.com/dcsc3dggd00000g0fwki9x714_3t7x/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.3.0&amp;WT.dcssip=www.catalogue.pearsoned.ca" height="1" width="1" id="DCSIMG" alt="DCSIMG"/></div></noscript></div></div><div class="ls-cmp-wrap" id="w1309255779703"><div class="iw_component my-component" id="1309255779703"><div id="ng_us_footer"><!-- begin footer -->
+<div class="footer">
+<h1 class="screenreader">Site Map</h1>
+<div class="nav group"><!-- begin column --><dl><dt><a href="/index.html">Pearson Canada</a></dt><dd><a href="/about/">About Us</a></dd><dd><a rel="ext" href="http://www.pearsoncanada.ca/corporate-info/accessibility">Accessibility</a></dd><dd><a href="/support/index.page">Contact Us</a></dd><dd><a rel="ext" href="http://www.pearsoncanada.ca/corporate-info/permissions-requests">Permissions Requests</a></dd><dd><a rel="ext" href="http://www.pearsoncanada.ca/corporate-info/privacy-statement">Privacy Statement</a></dd><dd><a rel="ext" href="http://www.pearsoncanada.ca/corporate-info/terms-of-use">Terms of Use</a></dd></dl><!-- end column --><!-- begin column --><dl><dt><a href="/educator/index.page">Educators</a></dt><dd><a href="/educator/replocator/">Find a Representative</a></dd><dd><a href="/educator/catalog/index.page">Catalogue &amp; Instructor Resources</a></dd><dd><a href="/educator/mylabmastering/index.page">MyLab &amp; Mastering</a></dd><!--dd><a href="/educator/firstdayofclass/index.page">First Day of Class</a></dd--><dd><a href="/educator/custom-solutions/index.page">Custom Solutions</a></dd><dd><a href="/educator/blended-learning/index.page">Online &amp; Blended Learning Solutions</a></dd><dd><a href="/educator/support/index.page">Support for Educators</a></dd><dt><a href="/leadership/index.page">Academic Executives</a></dt><dd><a href="/leadership/solutions/index.page">Institutional Solutions</a></dd><dd><a href="/leadership/online-solutions/index.page">Online Solutions</a></dd><dd><a href="/leadership/learning-environments/index.page">Learning Environments</a></dd></dl><!-- end column --><!-- begin column --><dl><dt><a href="/information/index.page">Other Customers</a></dt><dd><a href="/information/booksellers/index.page">Booksellers</a></dd><dd><a href="/information/consumers/index.page">General Consumers</a></dd><dd><a href="/information/international/index.page">Customers Outside Canada</a></dd><dt><a rel="ext" href="/student/index.page">Students</a></dt><dd><a rel="ext" href="/student/purchase/index.page">Buy Course Materials</a></dd><dd><a rel="ext" href="/student/programs/index.page">Student Programs</a></dd><dd><a rel="ext" href="/student/support/index.page">Support for Students</a></dd></dl><!-- end column --><!-- begin column --><dl><dt><a href="/educator/replocator/">Contact a Rep</a></dt><dd><a href="/educator/replocator/">Find your Pearson rep</a></dd><dt><a rel="ext" href="https://support.pearson.com/getsupport/s/">Technical Help</a></dt><dd>
+<p>Looking for technical support for your Pearson course materials? Please visit our <a rel="ext" href="https://support.pearson.com/getsupport/s/">24/7 Technical Support site</a>.</p>
+</dd></dl><!-- end column --></div>
+<p class="fine-print">Copyright &copy;
+<script type="text/javascript"><!--
+var theDate=new Date(); 
+document.write(theDate.getFullYear());
+// --></script>
+<a rel="ext" href="http://www.pearsoncanada.ca/">Pearson Canada Inc.</a>, All Rights Reserved</p>
+</div></div><script type="text/javascript">
+			//checkCookie(document.domain,'cookiemsgbox');
+		</script></div></div></div></div><div class="ls-row-clr" ></div></div></div></div><!--ls:end[body]--></body></html>
